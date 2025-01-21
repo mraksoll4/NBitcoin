@@ -18,6 +18,7 @@ namespace NBitcoin.Altcoins
 		public static Dogecoin Dogecoin { get; } = Dogecoin.Instance;
 		public static Dystem Dystem { get; } = Dystem.Instance;
 		public static Litecoin Litecoin { get; } = Litecoin.Instance;
+		public static Dpowcoin Dpowcoin { get; } = Dpowcoin.Instance;
 		public static Feathercoin Feathercoin { get; } = Feathercoin.Instance;
 		public static Viacoin Viacoin {get; } = Viacoin.Instance;
 		public static Polis Polis { get; } = Polis.Instance;
@@ -49,6 +50,7 @@ namespace NBitcoin.Altcoins
 			yield return Bitcoin;
 			yield return Bitcore;
 			yield return Litecoin;
+			yield return Dpowcoin;
 			yield return Feathercoin;
 			yield return Viacoin;
 			yield return Dogecoin;
